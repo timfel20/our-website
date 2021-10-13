@@ -1,0 +1,12 @@
+.img-principal {
+  background-image: url(/images/imagenprincipal.jpg);
+  background-repeat: no-repeat;
+  width: 300%;
+  height: 100px;
+}
+
+.logo {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
