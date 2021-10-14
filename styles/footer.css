@@ -1,0 +1,43 @@
+.img-div {
+  width: 200px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__title {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7%;
+}
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1%;
+  margin-bottom: 10%;
+}
+.footer__icons img {
+  width: 35px;
+  height: 35px;
+}
+.head {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+.texts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.footer__last {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  height: 2vh;
+  padding: 30px;
+}
