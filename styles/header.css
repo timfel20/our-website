@@ -1,5 +1,9 @@
+header{
+}
+
 .header-general {
   width: 100%;
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,15 +14,16 @@
 }
 
 .logo {
-  position: absolute;
   width: 12%;
   margin-top: 3%;
 }
 
 h1 {
-  position: absolute;
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 5vw;
-  margin-left: 3%;
-  margin-top: 15%;
+}
+
+nav{
+  position: absolute;
+
 }
