@@ -1,3 +1,9 @@
-.perfil {
-    width: 30px;
+.h2 {
+}
+.fotoscoders{
+    display: flex; 
+}
+.nombrecoders{
+    display: flex;
+    justify-content: space-evenly;
 }
