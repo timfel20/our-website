@@ -1,9 +1,25 @@
-.h2 {
+h2 {
+  font-size: 4vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
-.fotoscoders{
-    display: flex; 
+.fotoscoders {
+  display: flex;
+  width: 100%;
 }
-.nombrecoders{
-    display: flex;
-    justify-content: space-evenly;
+.perfil {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  column-gap: 1%;
+  width: 20%;
+}
+.img-main {
+  width: 70%;
+}
+.nombrecoders {
+  display: flex;
+  justify-content: space-around;
 }
