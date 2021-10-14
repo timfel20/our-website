@@ -1,12 +1,16 @@
-.header-general{
-    width: 100%;
-    height: fit-content;
+.header-general {
+  width: 100%;
+  height: fit-content;
+  background-color: rgba(82, 79, 79, 0.472);
+  z-index: 1;
+  margin-bottom: 5%;
 }
 
 .img-header {
   position: relative;
   width: 100%;
   height: fit-content;
+  z-index: -1;
 }
 
 .logo {
