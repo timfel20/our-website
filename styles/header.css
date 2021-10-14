@@ -1,12 +1,17 @@
-.img-principal {
-  background-image: url(/images/imagenprincipal.jpg);
-  background-repeat: no-repeat;
-  width: 300%;
-  height: 100px;
+.header-general{
+    width: 100%;
+    height: fit-content;
+}
+
+.img-header {
+  position: relative;
+  width: 100%;
+  height: fit-content;
 }
 
 .logo {
-  width: 100%;
-  max-width: 100px;
-  height: auto;
+  position: absolute;
+  z-index: 1;
+  width: 12%;
+  margin-top: 2%;
 }

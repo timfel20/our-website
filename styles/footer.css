@@ -1,9 +1,8 @@
-.img-div img {
+.img-div {
   width: 200px;
   height: 120px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .footer__title {
