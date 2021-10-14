@@ -24,6 +24,8 @@ h2 {
 .nombrecoders {
   display: flex;
   justify-content: space-around;
+  font-size: 1.5vw;
+  margin-bottom: 5%;
 }
 .p-image {
   width: 100%;
