@@ -3,7 +3,7 @@ h2 {
   justify-content: center;
   font-family: "Merriweather Sans", sans-serif;
   color: rgb(0, 0, 0);
-  font-size: 5vw;
+  font-size: 3em;
   margin-top: 15%;
   margin-bottom: 5%;
 }
@@ -26,25 +26,31 @@ h2 {
 
 p {
   font-family: "Merriweather Sans", sans-serif;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
+@media (max-width: 500px) {
+  .fotoCoders {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
 
-@media (max-width:500px){
-    .fotoCoders {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 100%;
-      }
+  .fotoPerfil {
+    width: 20%;
+  }
 
-      .fotoPerfil {
-        width: 50%;
-      }
+  .perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-      .perfil {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
+  p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 3vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
 }
