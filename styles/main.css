@@ -29,6 +29,14 @@ p {
   font-size: 1.5vw;
 }
 
+.p-image-div{
+  width: 100%;
+}
+
+.p-image{
+  width: 100%g;
+}
+
 @media (max-width: 500px) {
   .fotoCoders {
     display: flex;
